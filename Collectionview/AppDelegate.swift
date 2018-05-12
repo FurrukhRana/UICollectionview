@@ -3,7 +3,7 @@
 //  Collectionview
 //
 //  Created by Rana on 08/05/2018.
-//  Copyright © 2018 Rana. All rights reserved.
+//   © 2018 Rana. All rights reserved.
 //
 
 import UIKit
