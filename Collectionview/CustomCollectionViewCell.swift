@@ -10,6 +10,8 @@ import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
     
+    //TODO-custom cell
+    
     @IBOutlet weak var cellimageview: UIImageView!
 //    
 //    @IBOutlet fileprivate weak var containerView: UIView!

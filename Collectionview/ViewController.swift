@@ -45,18 +45,18 @@ extension ViewController: UICollectionViewDataSource,PinterestLayoutDelegate{
     
     
         
-       func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-            return wallpaers.count
-        }
-        
-        func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-            if let  cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionviewcell", for: indexPath)
-                as? CustomCollectionViewCell {
-                
-                
-                
-              //  cell.cellimageview.image = UIImage(named: "\(wallpaers[indexPath.row])")
-              
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return wallpaers.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        if let  cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionviewcell", for: indexPath)
+            as? CustomCollectionViewCell {
+            
+            
+            
+            //  cell.cellimageview.image = UIImage(named: "\(wallpaers[indexPath.row])")
+            
                 
                 cell.clipsToBounds = true
                 cell.layer.cornerRadius = 15
