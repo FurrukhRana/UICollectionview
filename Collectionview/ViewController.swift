@@ -3,12 +3,14 @@
 //  Collectionview
 //
 //  Created by Rana on 08/05/2018.
-//   2018 Rana. All rights reserved.
+//  Copyright © 2018 Rana. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
+    
+    //Array of alll wallpaper
     
     let wallpaers: [Any] = [1,2,3,4,5,6,7,"house"]
     @IBOutlet weak var collectionview: UICollectionView!
